@@ -1,20 +1,3 @@
-  steam-global-account q='Party Animals': 5 عرض
-  steam-global-account q='Pass the Fear': 2 عرض
-  steam-global-account q='Peglin': 3 عرض
-  steam-global-account q='Persona 3 Reload': 6 عرض
-  steam-global-account q='Phantom Brigade': 1 عرض
-  steam-global-account q='Planet Coaster 2': 6 عرض
-  steam-global-account q='PowerWash Simulator': 8 عرض
-  steam-global-account q='PowerWash Simulator 2': 3 عرض
-  steam-global-account q='Prison Escape Simulator: Dig Out': 2 عرض
-  steam-global-account q='RV There Yet': 4 عرض
-  steam-global-account q='Ravenswatch': 1 عرض
-  steam-global-account q='Remnant II': 10 عرض
-  steam-global-account q='Revenge of the Savage Planet': 1 عرض
-  steam-global-account q='Rivals of Aether II': 2 عرض
-  steam-global-account q='Riven': 5 عرض
-  steam-global-account q='Road to Empress': 3 عرض
-  steam-global-account q='Road to Vostok': 3 عرض
   steam-global-account q='Rune Factory 5': 1 عرض
   steam-global-account q='SNK VS. CAPCOM SVC CHAOS': 1 عرض
   steam-global-account q='STAR OCEAN THE SECOND STORY R': 1 عرض
@@ -92,6 +75,23 @@
   steam-global-account q='Zort': 1 عرض
   steam-global-account q='stay night REMASTERED': 1 عرض
   steam-global-account q='wwe 2k26': 9 عرض
+  steam-global-account q='America': 48 عرض
+  steam-global-account q='Atelier Yumia: The Alchemist of Memories & the Envisioned Land': 3 عرض
+  steam-global-account q='Brazil': 48 عرض
+  steam-global-account q='DiRT Rally 2': 0 عرض
+  steam-global-account q='Euro': 48 عرض
+  steam-global-account q='FANTASY LIFE i: The Girl Who Steals Time Digital Delu': 2 عرض
+  steam-global-account q="GMOD Garry's Mod": 1 عرض
+  steam-global-account q='India': 48 عرض
+  steam-global-account q='MALAYSIA': 27 عرض
+  steam-global-account q='Need for Speed: Heat': 16 عرض
+  steam-global-account q='Taiwan': 19 عرض
+  steam-global-account q='United States': 48 عرض
+  steam-global-account q='Vietnam': 22 عرض
+  steam-global-account q='WWE 2K26 Attitude Era': 1 عرض
+  steam-global-account q='WWE 2K26 King of Kings': 2 عرض
+  steam-global-account q='WWE 2K26 Monday Night War': 2 عرض
+  steam-global-account q='to Use': 48 عرض
   fc-27-accounts q=None: 192 عرض
   steam-global-account q='FC 27': 17 عرض
   cod-account q='Modern Warfare 3': 47 عرض
@@ -195,6 +195,6 @@
   steam-global-account q='Cities Skylines 2': 1 عرض
   counter-strike-global-offensive-accounts q='prime': 192 عرض
   steam-global-account q='prime': 192 عرض
-مجموع العروض: 7686
-أسباب الرفض: {'exclude': 4373, 'minq/status': 135, 'notfresh': 1023, 'blocked': 335, 'ok': 823, 'trust': 266, 'nosteam': 266}
-تم: 308 لعبة، 407 منتج. أسماء تحتاج ستيم: 0
+مجموع العروض: 7670
+أسباب الرفض: {'exclude': 4346, 'minq/status': 135, 'notfresh': 1027, 'blocked': 335, 'ok': 831, 'trust': 263, 'nosteam': 266}
+تم: 311 لعبة، 407 منتج. أسماء تحتاج ستيم: 0

@@ -5782,5 +5782,340 @@
    "Remote Play on TV",
    "Steam Timeline"
   ]
+ },
+ "americaexclusivelink": null,
+ "securityinformationbemodified": null,
+ "europauniversalisiiicollection": null,
+ "balance": {
+  "appid": 2219190,
+  "name": "Balance 100",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2219190/header.jpg?t=1757668826",
+  "free": false,
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Shared/Split Screen Co-op",
+   "Shared/Split Screen",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Cloud",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
+ },
+ "theisle": {
+  "appid": 376210,
+  "name": "The Isle",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376210/header.jpg?t=1653237914",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Massively Multiplayer",
+   "Simulation",
+   "Early Access"
+  ],
+  "cats": [
+   "Multi-player",
+   "MMO",
+   "PvP",
+   "Online PvP",
+   "Partial Controller Support",
+   "Valve Anti-Cheat enabled"
+  ]
+ },
+ "paralives": {
+  "appid": 1118520,
+  "name": "Paralives",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header.jpg?t=1790014819",
+  "free": false,
+  "genres": [
+   "Simulation",
+   "Early Access"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Workshop",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Mouse Only Option",
+   "Playable without Timed Input",
+   "Save Anytime",
+   "Stereo Sound",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "hellletloose": {
+  "appid": 686810,
+  "name": "Hell Let Loose",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/7655099ca004b09198b83713ad0d8215b98f7d5f/header_alt_assets_6.jpg?t=1790181050",
+  "free": false,
+  "genres": [
+   "Action",
+   "Indie",
+   "Massively Multiplayer",
+   "Simulation",
+   "Strategy"
+  ],
+  "cats": [
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Steam Achievements",
+   "Partial Controller Support",
+   "Family Sharing"
+  ]
+ },
+ "hogwartslegacy": {
+  "appid": 990080,
+  "name": "Hogwarts Legacy",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "In-App Purchases",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Narrated Game Menus",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Surround Sound",
+   "Steam Cloud",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "schedulei": {
+  "appid": 3164500,
+  "name": "Schedule I",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3164500/header.jpg?t=1785744977",
+  "free": false,
+  "genres": [
+   "Action",
+   "Indie",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Playable without Timed Input",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "squad": {
+  "appid": 4045720,
+  "name": "Squadron 42",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/bb659b93138f2881c155b84c8896463acc041e9f/header.jpg?t=1791644116",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Simulation"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Steam Cloud",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "cyberpunk2077": {
+  "appid": 1091500,
+  "name": "Cyberpunk 2077",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1784714077",
+  "free": false,
+  "genres": [
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "godofwar": {
+  "appid": 1593500,
+  "name": "God of War",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Keyboard Only Option",
+   "Narrated Game Menus",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "Remote Play on TV",
+   "Family Sharing"
+  ]
+ },
+ "grandtheftautovenhanced": {
+  "appid": 3240220,
+  "name": "Grand Theft Auto V Enhanced",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Racing"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "In-App Purchases",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Partial Controller Support",
+   "Remote Play on Phone",
+   "Remote Play on Tablet"
+  ]
+ },
+ "baldursgate3": {
+  "appid": 1086940,
+  "name": "Baldur's Gate 3",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+  "free": false,
+  "genres": [
+   "Adventure",
+   "RPG",
+   "Strategy"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "LAN Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "Remote Play on TV",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
+ },
+ "blackmythwukong": {
+  "appid": 2358720,
+  "name": "Black Myth: Wukong",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1760601605",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Gamepad Recommended",
+   "Playable without Timed Input",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Stereo Sound",
+   "Surround Sound",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
  }
 }
