@@ -2,15 +2,15 @@
   steam-global-account q=None: 1536 عرض
   fc-27-accounts q=None: 192 عرض
   steam-global-account q='FC 27': 17 عرض
-  cod-account q='Modern Warfare 3': 44 عرض
-  steam-global-account q='Modern Warfare 3': 56 عرض
+  cod-account q='Modern Warfare 3': 46 عرض
+  steam-global-account q='Modern Warfare 3': 55 عرض
   cod-account q='Modern Warfare 4': 96 عرض
   steam-global-account q='Modern Warfare 4': 0 عرض
   cod-account q='Black Ops 7': 192 عرض
   steam-global-account q='Black Ops 7': 2 عرض
-  cod-account q='modern warfare 2': 35 عرض
-  steam-global-account q='modern warfare 2': 96 عرض
-  cod-account q='vanguard': 34 عرض
+  cod-account q='modern warfare 2': 37 عرض
+  steam-global-account q='modern warfare 2': 94 عرض
+  cod-account q='vanguard': 35 عرض
   steam-global-account q='vanguard': 1 عرض
   cod-account q='wwii': 24 عرض
   steam-global-account q='wwii': 31 عرض
@@ -40,7 +40,7 @@
   steam-global-account q='Helldivers 2': 29 عرض
   steam-global-account q='Monster Hunter Wilds': 11 عرض
   steam-global-account q='Monster Hunter World': 57 عرض
-  steam-global-account q='Resident Evil 4': 31 عرض
+  steam-global-account q='Resident Evil 4': 32 عرض
   steam-global-account q='Resident Evil Village': 8 عرض
   steam-global-account q='Resident Evil 2': 16 عرض
   steam-global-account q='Resident Evil Requiem': 12 عرض
@@ -77,14 +77,14 @@
   steam-global-account q='Need for Speed Heat': 16 عرض
   steam-global-account q='The Crew Motorfest': 2 عرض
   steam-global-account q='Forza Horizon 4': 35 عرض
-  steam-global-account q='American Truck Simulator': 54 عرض
+  steam-global-account q='American Truck Simulator': 55 عرض
   steam-global-account q='Car Mechanic Simulator 2021': 4 عرض
   steam-global-account q='Lethal Company': 43 عرض
   steam-global-account q='REPO': 4 عرض
   steam-global-account q='PEAK': 37 عرض
-  steam-global-account q='Raft': 77 عرض
-  steam-global-account q='Valheim': 51 عرض
-  steam-global-account q='Subnautica': 65 عرض
+  steam-global-account q='Raft': 76 عرض
+  steam-global-account q='Valheim': 52 عرض
+  steam-global-account q='Subnautica': 64 عرض
   steam-global-account q='Green Hell': 30 عرض
   steam-global-account q='SCUM': 29 عرض
   steam-global-account q='Sea of Thieves': 56 عرض
@@ -95,7 +95,7 @@
   steam-global-account q='Death Stranding': 3 عرض
   steam-global-account q='Silent Hill 2': 4 عرض
   steam-global-account q='Street Fighter 6': 13 عرض
-  steam-global-account q='Mortal Kombat 11': 31 عرض
+  steam-global-account q='Mortal Kombat 11': 30 عرض
   steam-global-account q='Dead Island 2': 5 عرض
   steam-global-account q='Witcher 3': 122 عرض
   steam-global-account q='Fallout 4': 7 عرض
@@ -103,6 +103,6 @@
   steam-global-account q='Cities Skylines 2': 1 عرض
   counter-strike-global-offensive-accounts q='prime': 192 عرض
   steam-global-account q='prime': 192 عرض
-مجموع العروض: 5214
-أسباب الرفض: {'minq/status': 157, 'exclude': 1843, 'notfresh': 1456, 'rating': 262, 'ok': 121, 'sat': 637, 'nosteam': 319, 'qty': 3}
-السحب ناقص (15 مقابل 326) — نبقي الأسعار القديمة.
+مجموع العروض: 5216
+أسباب الرفض: {'exclude': 2667, 'minq/status': 135, 'notfresh': 686, 'blocked': 334, 'ok': 423, 'trust': 242, 'nosteam': 264}
+السحب ناقص (84 مقابل 326) — نبقي الأسعار القديمة.
