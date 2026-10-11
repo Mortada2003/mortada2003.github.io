@@ -45,7 +45,7 @@ GLOBAL_EXCLUDE = [
     "random country", "random region", "no games", "un-bought", "not bought", "not purchased", "unused",
     "to-play", "to play", "not owned", "ready to buy", "veteran", "phone verified", "non prime", "non-prime",
     "market disabled", "episode", "tlauncher", "game pass", "games:", "sms", "number verif", "outlook",
-    "add friends", "activision", "& clean",
+    "add friends", "activision", "& clean", "edition pack", "season pass", "soundtrack",
 ]
 BUNDLE_RE = re.compile(r"\b\d+\s*(games|game)\b|\+\s*\d+\s*(other|more)", re.I)
 BLOCK_SELLERS = {"el9in", "AdamBrian", "Maper", "week1997", "yubabuneng", "Stark2Doom", "Maddigital",
