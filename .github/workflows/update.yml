@@ -30,13 +30,13 @@ jobs:
           python-version: "3.12"
 
       - name: سحب الأسعار من G2G
-        run: python scraper.py
+        run: python -u scraper.py 2>&1 | tail -n 200 > scrape_log.txt; tail -n 40 scrape_log.txt
 
       - name: حفظ الأسعار الجديدة
         run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"
-          git add site/data.json steam_cache.json
+          git add site/data.json steam_cache.json scrape_log.txt
           git diff --cached --quiet || git commit -m "تحديث الأسعار $(date -u +%Y-%m-%dT%H:%MZ)"
           git push || true
 
