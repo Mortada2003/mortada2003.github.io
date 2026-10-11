@@ -1,0 +1,2183 @@
+[
+ {
+  "id": "fc27",
+  "name_ar": "إف سي 27 (فيفا)",
+  "steam_name": "EA SPORTS FC 27",
+  "appid": 4080220,
+  "match": [
+   "fc 27",
+   "fc27",
+   "fc-27"
+  ],
+  "sources": [
+   {
+    "seo": "fc-27-accounts"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "FC 27"
+   }
+  ],
+  "cat": [
+   "sports",
+   "online"
+  ]
+ },
+ {
+  "id": "mw3",
+  "name_ar": "كول أوف ديوتي: مودرن وورفير 3",
+  "steam_name": "Call of Duty: Modern Warfare III",
+  "match": [
+   "mw3",
+   "modern warfare 3",
+   "modern warfare iii"
+  ],
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "Modern Warfare 3"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "Modern Warfare 3"
+   }
+  ],
+  "cat": [
+   "cod",
+   "online"
+  ],
+  "appid": 3595270
+ },
+ {
+  "id": "mw4",
+  "name_ar": "كول أوف ديوتي: مودرن وورفير 4",
+  "steam_name": "Call of Duty: Modern Warfare 4",
+  "match": [
+   "mw4",
+   "modern warfare 4",
+   "modern warfare iv"
+  ],
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "Modern Warfare 4"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "Modern Warfare 4"
+   }
+  ],
+  "cat": [
+   "cod",
+   "online"
+  ],
+  "appid": 4435490
+ },
+ {
+  "id": "bo7",
+  "name_ar": "كول أوف ديوتي: بلاك أوبس 7",
+  "steam_name": "Call of Duty: Black Ops 7",
+  "match": [
+   "black ops 7",
+   "bo7"
+  ],
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "Black Ops 7"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "Black Ops 7"
+   }
+  ],
+  "cat": [
+   "cod",
+   "online"
+  ],
+  "appid": 3606480
+ },
+ {
+  "id": "mw2",
+  "name_ar": "كول أوف ديوتي: مودرن وورفير 2",
+  "steam_name": "Call of Duty: Modern Warfare II",
+  "match": [
+   "modern warfare 2",
+   "modern warfare ii",
+   "mw2"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 1938090,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "modern warfare 2"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "modern warfare 2"
+   }
+  ]
+ },
+ {
+  "id": "vanguard",
+  "name_ar": "كول أوف ديوتي: فانغارد",
+  "steam_name": "Call of Duty: Vanguard",
+  "match": [
+   "vanguard"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "vanguard"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "vanguard"
+   }
+  ],
+  "appid": 1985820
+ },
+ {
+  "id": "codww2",
+  "name_ar": "كول أوف ديوتي: الحرب العالمية 2",
+  "steam_name": "Call of Duty: WWII",
+  "match": [
+   "wwii",
+   "ww2"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 476600,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "wwii"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "wwii"
+   }
+  ]
+ },
+ {
+  "id": "codiw",
+  "name_ar": "كول أوف ديوتي: إنفنت وورفير",
+  "steam_name": "Call of Duty: Infinite Warfare",
+  "match": [
+   "infinite warfare"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 292730,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "infinite warfare"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "infinite warfare"
+   }
+  ]
+ },
+ {
+  "id": "bo2",
+  "name_ar": "كول أوف ديوتي: بلاك أوبس 2",
+  "steam_name": "Call of Duty: Black Ops II",
+  "match": [
+   "black ops 2",
+   "black ops ii",
+   "bo2"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 202970,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "black ops 2"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "black ops 2"
+   }
+  ]
+ },
+ {
+  "id": "bo1",
+  "name_ar": "كول أوف ديوتي: بلاك أوبس 1",
+  "steam_name": "Call of Duty: Black Ops",
+  "match": [
+   "black ops 1",
+   "black ops i "
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 42700,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "black ops 1"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "black ops 1"
+   }
+  ]
+ },
+ {
+  "id": "mwr",
+  "name_ar": "كول أوف ديوتي: مودرن وورفير ريماستر",
+  "steam_name": "Call of Duty: Modern Warfare Remastered",
+  "match": [
+   "modern warfare remastered",
+   "mwr"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 393080,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "modern warfare remastered"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "modern warfare remastered"
+   }
+  ]
+ },
+ {
+  "id": "ghosts",
+  "name_ar": "كول أوف ديوتي: غوستس",
+  "steam_name": "Call of Duty: Ghosts",
+  "match": [
+   "call of duty: ghosts",
+   "cod ghosts",
+   "call of duty ghosts"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 209160,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "call of duty: ghosts"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "call of duty: ghosts"
+   }
+  ]
+ },
+ {
+  "id": "aw",
+  "name_ar": "كول أوف ديوتي: أدفانسد وورفير",
+  "steam_name": "Call of Duty: Advanced Warfare",
+  "match": [
+   "advanced warfare"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 209650,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "advanced warfare"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "advanced warfare"
+   }
+  ]
+ },
+ {
+  "id": "cod4",
+  "name_ar": "كول أوف ديوتي 4",
+  "steam_name": "Call of Duty 4: Modern Warfare",
+  "match": [
+   "call of duty 4",
+   "cod4"
+  ],
+  "cat": [
+   "cod"
+  ],
+  "appid": 7940,
+  "sources": [
+   {
+    "seo": "cod-account",
+    "q": "call of duty 4"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "call of duty 4"
+   }
+  ]
+ },
+ {
+  "id": "minecraft",
+  "name_ar": "ماينكرافت (جافا وبيدروك)",
+  "steam": false,
+  "fresh": false,
+  "cover": "",
+  "match": [
+   "java"
+  ],
+  "exclude": [
+   "nfa",
+   "sfa",
+   "semi",
+   "rent",
+   "ban",
+   "hypixel",
+   "cape only",
+   "unmigrated"
+  ],
+  "sources": [
+   {
+    "seo": "minecraft-account"
+   }
+  ],
+  "cat": [
+   "online",
+   "action"
+  ],
+  "steam_name": "Minecraft: Java & Bedrock"
+ },
+ {
+  "id": "squad",
+  "name_ar": "سكواد",
+  "steam_name": "Squad",
+  "appid": 393380,
+  "match": [
+   "squad"
+  ],
+  "exclude": [
+   "fc 2",
+   "ultimate team",
+   "squad value",
+   "starter squad",
+   "squad price"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "gta5",
+  "name_ar": "جي تي أي 5",
+  "steam_name": "Grand Theft Auto V Enhanced",
+  "appid": 3240220,
+  "match": [
+   "gta 5",
+   "gta v",
+   "gta5",
+   "grand theft auto v"
+  ],
+  "exclude": [
+   "fivem only",
+   "social club only",
+   "money",
+   "modded"
+  ],
+  "cat": [
+   "action"
+  ],
+  "fresh": false
+ },
+ {
+  "id": "rdr2",
+  "name_ar": "ريد ديد ريدمبشن 2",
+  "steam_name": "Red Dead Redemption 2",
+  "appid": 1174180,
+  "match": [
+   "red dead redemption 2",
+   "rdr2",
+   "rdr 2"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "cyberpunk",
+  "name_ar": "سايبربانك 2077",
+  "steam_name": "Cyberpunk 2077",
+  "appid": 1091500,
+  "match": [
+   "cyberpunk"
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "eldenring",
+  "name_ar": "إلدن رينغ",
+  "steam_name": "ELDEN RING",
+  "appid": 1245620,
+  "match": [
+   "elden ring"
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "bf6",
+  "name_ar": "باتلفيلد 6",
+  "steam_name": "Battlefield 6",
+  "match": [
+   "battlefield 6",
+   "bf6"
+  ],
+  "cat": [
+   "online"
+  ],
+  "appid": 2807960
+ },
+ {
+  "id": "arcraiders",
+  "name_ar": "آرك رايدرز",
+  "steam_name": "ARC Raiders",
+  "match": [
+   "arc raiders"
+  ],
+  "sources": [
+   {
+    "seo": "arc-raiders-accounts"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "ARC Raiders"
+   }
+  ],
+  "cat": [
+   "online"
+  ],
+  "appid": 1808500
+ },
+ {
+  "id": "rust",
+  "name_ar": "راست",
+  "steam_name": "Rust",
+  "appid": 252490,
+  "match": [
+   "rust"
+  ],
+  "exclude": [
+   "rusty"
+  ],
+  "sources": [
+   {
+    "seo": "rus-accounts-buy"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "Rust"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "r6",
+  "name_ar": "رينبو سكس سيج",
+  "steam_name": "Tom Clancy's Rainbow Six Siege X",
+  "appid": 359550,
+  "match": [
+   "rainbow six",
+   "r6"
+  ],
+  "sources": [
+   {
+    "seo": "tom-clancys-rainbow-six-siege-account"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "Rainbow Six Siege"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "arksa",
+  "name_ar": "آرك: سيرفايفل أسيندد",
+  "steam_name": "ARK: Survival Ascended",
+  "appid": 2399830,
+  "match": [
+   "ark: survival ascended",
+   "ark survival ascended",
+   "ark sa"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "palworld",
+  "name_ar": "بالوورلد",
+  "steam_name": "Palworld",
+  "appid": 1623730,
+  "match": [
+   "palworld"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "bg3",
+  "name_ar": "بالدرز غيت 3",
+  "steam_name": "Baldur's Gate 3",
+  "appid": 1086940,
+  "match": [
+   "baldur"
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "wukong",
+  "name_ar": "بلاك ميث: ووكونغ",
+  "steam_name": "Black Myth: Wukong",
+  "appid": 2358720,
+  "match": [
+   "wukong"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "hogwarts",
+  "name_ar": "هوغوورتس ليغاسي",
+  "steam_name": "Hogwarts Legacy",
+  "appid": 990080,
+  "match": [
+   "hogwarts"
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "sotf",
+  "name_ar": "صنز أوف ذا فورست",
+  "steam_name": "Sons Of The Forest",
+  "appid": 1326470,
+  "match": [
+   "sons of the forest"
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "theforest",
+  "name_ar": "ذا فورست",
+  "steam_name": "The Forest",
+  "appid": 242760,
+  "match": [
+   "the forest"
+  ],
+  "exclude": [
+   "sons of the forest"
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "dayz",
+  "name_ar": "داي زي",
+  "steam_name": "DayZ",
+  "appid": 221100,
+  "match": [
+   "dayz"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "dbd",
+  "name_ar": "ديد باي دايلايت",
+  "steam_name": "Dead by Daylight",
+  "appid": 381210,
+  "match": [
+   "dead by daylight"
+  ],
+  "cat": [
+   "horror",
+   "online"
+  ]
+ },
+ {
+  "id": "phasmo",
+  "name_ar": "فازموفوبيا",
+  "steam_name": "Phasmophobia",
+  "appid": 739630,
+  "match": [
+   "phasmophobia"
+  ],
+  "cat": [
+   "horror",
+   "online"
+  ]
+ },
+ {
+  "id": "zomboid",
+  "name_ar": "بروجكت زومبويد",
+  "steam_name": "Project Zomboid",
+  "appid": 108600,
+  "match": [
+   "zomboid"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "beamng",
+  "name_ar": "بيم إن جي درايف",
+  "steam_name": "BeamNG.drive",
+  "appid": 284160,
+  "match": [
+   "beamng"
+  ],
+  "cat": [
+   "racing",
+   "sim"
+  ]
+ },
+ {
+  "id": "fh5",
+  "name_ar": "فورزا هورايزن 5",
+  "steam_name": "Forza Horizon 5",
+  "appid": 1551360,
+  "match": [
+   "forza horizon 5",
+   "fh5"
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "ets2",
+  "name_ar": "يورو تراك سيميوليتر 2",
+  "steam_name": "Euro Truck Simulator 2",
+  "appid": 227300,
+  "match": [
+   "euro truck"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "schedule1",
+  "name_ar": "شيديول 1",
+  "steam_name": "Schedule I",
+  "appid": 3164500,
+  "match": [
+   "schedule i",
+   "schedule 1"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "readyornot",
+  "name_ar": "ريدي أور نوت",
+  "steam_name": "Ready or Not",
+  "appid": 1144200,
+  "match": [
+   "ready or not"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "hll",
+  "name_ar": "هيل ليت لوز",
+  "steam_name": "Hell Let Loose",
+  "appid": 686810,
+  "match": [
+   "hell let loose"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "tekken8",
+  "name_ar": "تيكن 8",
+  "steam_name": "TEKKEN 8",
+  "appid": 1778820,
+  "match": [
+   "tekken 8"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "mk1",
+  "name_ar": "مورتال كومبات 1",
+  "steam_name": "Mortal Kombat 1",
+  "appid": 1971870,
+  "match": [
+   "mortal kombat 1"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "gow",
+  "name_ar": "غاد أوف وور",
+  "steam_name": "God of War",
+  "appid": 1593500,
+  "match": [
+   "god of war"
+  ],
+  "exclude": [
+   "ragnarok",
+   "ragnarök"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "spiderman",
+  "name_ar": "سبايدر مان ريماستر",
+  "steam_name": "Marvel's Spider-Man Remastered",
+  "appid": 1817070,
+  "match": [
+   "spider-man remastered",
+   "spiderman remastered"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "tlou",
+  "name_ar": "ذا لاست أوف أس 1",
+  "steam_name": "The Last of Us Part I",
+  "appid": 1888930,
+  "match": [
+   "last of us part i",
+   "last of us part 1"
+  ],
+  "exclude": [
+   "part ii",
+   "part 2"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "tsushima",
+  "name_ar": "غوست أوف تسوشيما",
+  "steam_name": "Ghost of Tsushima DIRECTOR'S CUT",
+  "appid": 2215430,
+  "match": [
+   "tsushima"
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "ittakestwo",
+  "name_ar": "إت تيكس تو",
+  "steam_name": "It Takes Two",
+  "appid": 1426210,
+  "match": [
+   "it takes two"
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "fs25",
+  "name_ar": "فارمينغ سيميوليتر 25",
+  "steam_name": "Farming Simulator 25",
+  "appid": 2300320,
+  "match": [
+   "farming simulator 25",
+   "fs25"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "assetto",
+  "name_ar": "أسيتو كورسا",
+  "steam_name": "Assetto Corsa",
+  "appid": 244210,
+  "match": [
+   "assetto corsa"
+  ],
+  "exclude": [
+   "competizione",
+   "evo"
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "terraria",
+  "name_ar": "تيراريا",
+  "steam_name": "Terraria",
+  "appid": 105600,
+  "match": [
+   "terraria"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "stardew",
+  "name_ar": "ستاردو فالي",
+  "steam_name": "Stardew Valley",
+  "appid": 413150,
+  "match": [
+   "stardew"
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "silksong",
+  "name_ar": "هولو نايت: سيلكسونغ",
+  "steam_name": "Hollow Knight: Silksong",
+  "match": [
+   "silksong"
+  ],
+  "appid": 1030300,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Silksong"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "hollowknight",
+  "name_ar": "هولو نايت",
+  "steam_name": "Hollow Knight",
+  "match": [
+   "hollow knight"
+  ],
+  "appid": 367520,
+  "exclude": [
+   "silksong"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Hollow Knight"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "helldivers2",
+  "name_ar": "هيلدايفرز 2",
+  "steam_name": "HELLDIVERS 2",
+  "match": [
+   "helldivers 2",
+   "helldivers"
+  ],
+  "appid": 553850,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Helldivers 2"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "mhwilds",
+  "name_ar": "مونستر هنتر وايلدز",
+  "steam_name": "Monster Hunter Wilds",
+  "match": [
+   "monster hunter wilds"
+  ],
+  "appid": 2246340,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Monster Hunter Wilds"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "mhworld",
+  "name_ar": "مونستر هنتر وورلد",
+  "steam_name": "Monster Hunter: World",
+  "match": [
+   "monster hunter world",
+   "monster hunter: world"
+  ],
+  "appid": 582010,
+  "exclude": [
+   "wilds"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Monster Hunter World"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "re4",
+  "name_ar": "ريزدنت إيفل 4",
+  "steam_name": "Resident Evil 4",
+  "match": [
+   "resident evil 4",
+   "re4"
+  ],
+  "appid": 2050650,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Resident Evil 4"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "re8",
+  "name_ar": "ريزدنت إيفل فيليج",
+  "steam_name": "Resident Evil Village",
+  "match": [
+   "resident evil village"
+  ],
+  "appid": 1196590,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Resident Evil Village"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "re2",
+  "name_ar": "ريزدنت إيفل 2",
+  "steam_name": "Resident Evil 2",
+  "match": [
+   "resident evil 2",
+   "re2"
+  ],
+  "appid": 883710,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Resident Evil 2"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "re9",
+  "name_ar": "ريزدنت إيفل ريكويم",
+  "steam_name": "Resident Evil Requiem",
+  "match": [
+   "requiem"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Resident Evil Requiem"
+   }
+  ],
+  "cat": [
+   "horror"
+  ],
+  "appid": 3764200
+ },
+ {
+  "id": "dl2",
+  "name_ar": "داينغ لايت 2",
+  "steam_name": "Dying Light 2 Stay Human",
+  "match": [
+   "dying light 2"
+  ],
+  "appid": 534380,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Dying Light 2"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "dlbeast",
+  "name_ar": "داينغ لايت: ذا بيست",
+  "steam_name": "Dying Light: The Beast",
+  "match": [
+   "dying light the beast",
+   "dying light: the beast"
+  ],
+  "appid": 3008130,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Dying Light The Beast"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "daysgone",
+  "name_ar": "دايز غون",
+  "steam_name": "Days Gone",
+  "match": [
+   "days gone"
+  ],
+  "appid": 1259420,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Days Gone"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "hzd",
+  "name_ar": "هورايزن زيرو دون",
+  "steam_name": "Horizon Zero Dawn Remastered",
+  "match": [
+   "horizon zero dawn"
+  ],
+  "appid": 2561580,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Horizon Zero Dawn"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "hfw",
+  "name_ar": "هورايزن فوربدن ويست",
+  "steam_name": "Horizon Forbidden West Complete Edition",
+  "match": [
+   "horizon forbidden west"
+  ],
+  "appid": 2420110,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Horizon Forbidden West"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "milesmorales",
+  "name_ar": "سبايدر مان: مايلز موراليس",
+  "steam_name": "Marvel's Spider-Man: Miles Morales",
+  "match": [
+   "miles morales"
+  ],
+  "appid": 1817190,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Miles Morales"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "spiderman2",
+  "name_ar": "سبايدر مان 2",
+  "steam_name": "Marvel's Spider-Man 2",
+  "match": [
+   "spider-man 2",
+   "spiderman 2"
+  ],
+  "appid": 2651280,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Spider-Man 2"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "gowr",
+  "name_ar": "غاد أوف وور راغناروك",
+  "steam_name": "God of War Ragnarök",
+  "match": [
+   "ragnarok",
+   "ragnarök"
+  ],
+  "appid": 2322010,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "God of War Ragnarok"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "uncharted",
+  "name_ar": "أنتشارتد: ليغاسي أوف ثيفز",
+  "steam_name": "UNCHARTED: Legacy of Thieves Collection",
+  "match": [
+   "uncharted"
+  ],
+  "appid": 1659420,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Uncharted"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "sekiro",
+  "name_ar": "سيكيرو",
+  "steam_name": "Sekiro: Shadows Die Twice",
+  "match": [
+   "sekiro"
+  ],
+  "appid": 814380,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Sekiro"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "ds3",
+  "name_ar": "دارك سولز 3",
+  "steam_name": "DARK SOULS III",
+  "match": [
+   "dark souls 3",
+   "dark souls iii"
+  ],
+  "appid": 374320,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Dark Souls 3"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "nightreign",
+  "name_ar": "إلدن رينغ نايتراين",
+  "steam_name": "ELDEN RING NIGHTREIGN",
+  "match": [
+   "nightreign"
+  ],
+  "appid": 2622380,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Nightreign"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "liesofp",
+  "name_ar": "لايز أوف بي",
+  "steam_name": "Lies of P",
+  "match": [
+   "lies of p"
+  ],
+  "appid": 1627720,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Lies of P"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "stellarblade",
+  "name_ar": "ستيلار بليد",
+  "steam_name": "Stellar Blade",
+  "match": [
+   "stellar blade"
+  ],
+  "appid": 3489700,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Stellar Blade"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "acshadows",
+  "name_ar": "أساسنز كريد شادوز",
+  "steam_name": "Assassin's Creed Shadows",
+  "match": [
+   "creed shadows"
+  ],
+  "appid": 3159330,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Assassin's Creed Shadows"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "acvalhalla",
+  "name_ar": "أساسنز كريد فالهالا",
+  "steam_name": "Assassin's Creed Valhalla",
+  "match": [
+   "valhalla"
+  ],
+  "appid": 2208920,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Assassin's Creed Valhalla"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "acmirage",
+  "name_ar": "أساسنز كريد ميراج",
+  "steam_name": "Assassin's Creed Mirage",
+  "match": [
+   "creed mirage"
+  ],
+  "appid": 3035570,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Assassin's Creed Mirage"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "fc6",
+  "name_ar": "فار كراي 6",
+  "steam_name": "Far Cry 6",
+  "match": [
+   "far cry 6"
+  ],
+  "appid": 2369390,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Far Cry 6"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "mafiade",
+  "name_ar": "مافيا: ديفينيتف إديشن",
+  "steam_name": "Mafia: Definitive Edition",
+  "match": [
+   "mafia: definitive",
+   "mafia definitive"
+  ],
+  "appid": 1030840,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Mafia Definitive Edition"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "mafiaoc",
+  "name_ar": "مافيا: ذا أولد كنتري",
+  "steam_name": "Mafia: The Old Country",
+  "match": [
+   "old country"
+  ],
+  "appid": 1941540,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Mafia The Old Country"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "hitman",
+  "name_ar": "هيتمان: وورلد أوف أساسينيشن",
+  "steam_name": "HITMAN World of Assassination",
+  "match": [
+   "hitman"
+  ],
+  "appid": 1659040,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Hitman"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "bf2042",
+  "name_ar": "باتلفيلد 2042",
+  "steam_name": "Battlefield 2042",
+  "match": [
+   "battlefield 2042",
+   "bf2042"
+  ],
+  "appid": 1517290,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Battlefield 2042"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "bfv",
+  "name_ar": "باتلفيلد 5",
+  "steam_name": "Battlefield V",
+  "match": [
+   "battlefield v",
+   "battlefield 5"
+  ],
+  "appid": 1238810,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Battlefield V"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "bo6",
+  "name_ar": "كول أوف ديوتي: بلاك أوبس 6",
+  "steam_name": "Call of Duty: Black Ops 6",
+  "match": [
+   "black ops 6",
+   "bo6"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Black Ops 6"
+   }
+  ],
+  "cat": [
+   "cod",
+   "online"
+  ],
+  "appid": 4384550
+ },
+ {
+  "id": "bo3",
+  "name_ar": "كول أوف ديوتي: بلاك أوبس 3",
+  "steam_name": "Call of Duty: Black Ops III",
+  "match": [
+   "black ops 3",
+   "black ops iii",
+   "bo3"
+  ],
+  "appid": 311210,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Black Ops 3"
+   }
+  ],
+  "cat": [
+   "cod",
+   "online"
+  ]
+ },
+ {
+  "id": "mw2019",
+  "name_ar": "كول أوف ديوتي: مودرن وورفير 2019",
+  "steam_name": "Call of Duty: Modern Warfare",
+  "match": [
+   "modern warfare 2019",
+   "mw 2019",
+   "mw2019"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Modern Warfare 2019"
+   }
+  ],
+  "cat": [
+   "cod"
+  ]
+ },
+ {
+  "id": "wwe2k25",
+  "name_ar": "دبليو دبليو إي 2K25",
+  "steam_name": "WWE 2K25",
+  "match": [
+   "wwe 2k25"
+  ],
+  "appid": 2878960,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "WWE 2K25"
+   }
+  ],
+  "cat": [
+   "sports"
+  ]
+ },
+ {
+  "id": "nba2k26",
+  "name_ar": "إن بي إيه 2K26",
+  "steam_name": "NBA 2K26",
+  "match": [
+   "nba 2k26"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "NBA 2K26"
+   }
+  ],
+  "cat": [
+   "sports"
+  ],
+  "appid": 3472040
+ },
+ {
+  "id": "f125",
+  "name_ar": "إف 1 25",
+  "steam_name": "F1 25",
+  "match": [
+   "f1 25",
+   "f1® 25"
+  ],
+  "appid": 3059520,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "F1 25"
+   }
+  ],
+  "cat": [
+   "sports",
+   "racing"
+  ]
+ },
+ {
+  "id": "nfsu",
+  "name_ar": "نيد فور سبيد أنباوند",
+  "steam_name": "Need for Speed Unbound",
+  "match": [
+   "need for speed unbound",
+   "nfs unbound"
+  ],
+  "appid": 1846380,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Need for Speed Unbound"
+   }
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "nfsheat",
+  "name_ar": "نيد فور سبيد هيت",
+  "steam_name": "Need for Speed Heat",
+  "match": [
+   "need for speed heat",
+   "nfs heat"
+  ],
+  "appid": 1222680,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Need for Speed Heat"
+   }
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "crewmotorfest",
+  "name_ar": "ذا كرو موتورفست",
+  "steam_name": "The Crew Motorfest",
+  "match": [
+   "motorfest"
+  ],
+  "appid": 2698940,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "The Crew Motorfest"
+   }
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "fh4",
+  "name_ar": "فورزا هورايزن 4",
+  "steam_name": "Forza Horizon 4",
+  "match": [
+   "forza horizon 4",
+   "fh4"
+  ],
+  "appid": 1293830,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Forza Horizon 4"
+   }
+  ],
+  "cat": [
+   "racing"
+  ]
+ },
+ {
+  "id": "ats",
+  "name_ar": "أمريكان تراك سيميوليتر",
+  "steam_name": "American Truck Simulator",
+  "match": [
+   "american truck"
+  ],
+  "appid": 270880,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "American Truck Simulator"
+   }
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "cms21",
+  "name_ar": "كار ميكانيك سيميوليتر 2021",
+  "steam_name": "Car Mechanic Simulator 2021",
+  "match": [
+   "car mechanic simulator 2021"
+  ],
+  "appid": 1190000,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Car Mechanic Simulator 2021"
+   }
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "lethal",
+  "name_ar": "ليثال كومباني",
+  "steam_name": "Lethal Company",
+  "match": [
+   "lethal company"
+  ],
+  "appid": 1966720,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Lethal Company"
+   }
+  ],
+  "cat": [
+   "horror",
+   "online"
+  ]
+ },
+ {
+  "id": "repo",
+  "name_ar": "ريبو",
+  "steam_name": "R.E.P.O.",
+  "match": [
+   "r.e.p.o",
+   "repo"
+  ],
+  "appid": 3241660,
+  "exclude": [
+   "repost"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "REPO"
+   }
+  ],
+  "cat": [
+   "horror",
+   "online"
+  ]
+ },
+ {
+  "id": "peak",
+  "name_ar": "بيك",
+  "steam_name": "PEAK",
+  "match": [
+   "peak"
+  ],
+  "appid": 3527290,
+  "exclude": [
+   "peaky"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "PEAK"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "raft",
+  "name_ar": "رافت",
+  "steam_name": "Raft",
+  "match": [
+   "raft"
+  ],
+  "appid": 648800,
+  "exclude": [
+   "minecraft",
+   "aircraft",
+   "warcraft",
+   "crafted"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Raft"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "valheim",
+  "name_ar": "فالهايم",
+  "steam_name": "Valheim",
+  "match": [
+   "valheim"
+  ],
+  "appid": 892970,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Valheim"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "subnautica",
+  "name_ar": "سابنوتيكا",
+  "steam_name": "Subnautica",
+  "match": [
+   "subnautica"
+  ],
+  "appid": 264710,
+  "exclude": [
+   "below zero"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Subnautica"
+   }
+  ],
+  "cat": []
+ },
+ {
+  "id": "greenhell",
+  "name_ar": "غرين هيل",
+  "steam_name": "Green Hell",
+  "match": [
+   "green hell"
+  ],
+  "appid": 815370,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Green Hell"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "scum",
+  "name_ar": "سكم",
+  "steam_name": "SCUM",
+  "match": [
+   "scum"
+  ],
+  "appid": 513710,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "SCUM"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "seaofthieves",
+  "name_ar": "سي أوف ثيفز",
+  "steam_name": "Sea of Thieves",
+  "match": [
+   "sea of thieves"
+  ],
+  "appid": 1172620,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Sea of Thieves"
+   }
+  ],
+  "cat": [
+   "online"
+  ]
+ },
+ {
+  "id": "kcd2",
+  "name_ar": "كينغدوم كم: ديليفرنس 2",
+  "steam_name": "Kingdom Come: Deliverance II",
+  "match": [
+   "deliverance ii",
+   "deliverance 2"
+  ],
+  "appid": 1771300,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Kingdom Come Deliverance 2"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "gta4",
+  "name_ar": "جي تي أي 4",
+  "steam_name": "Grand Theft Auto IV: The Complete Edition",
+  "match": [
+   "gta 4",
+   "gta iv",
+   "grand theft auto iv"
+  ],
+  "appid": 12210,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "GTA IV"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "rdr1",
+  "name_ar": "ريد ديد ريدمبشن 1",
+  "steam_name": "Red Dead Redemption",
+  "match": [
+   "red dead redemption"
+  ],
+  "appid": 2668510,
+  "exclude": [
+   "redemption 2",
+   "rdr2",
+   "rdr 2"
+  ],
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Red Dead Redemption"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "detroit",
+  "name_ar": "ديترويت: بيكم هيومن",
+  "steam_name": "Detroit: Become Human",
+  "match": [
+   "detroit"
+  ],
+  "appid": 1222140,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Detroit Become Human"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "deathstranding",
+  "name_ar": "ديث ستراندينغ",
+  "steam_name": "DEATH STRANDING DIRECTOR'S CUT",
+  "match": [
+   "death stranding"
+  ],
+  "appid": 1850570,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Death Stranding"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "sh2",
+  "name_ar": "سايلنت هيل 2",
+  "steam_name": "SILENT HILL 2",
+  "match": [
+   "silent hill 2"
+  ],
+  "appid": 2124490,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Silent Hill 2"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "sf6",
+  "name_ar": "ستريت فايتر 6",
+  "steam_name": "Street Fighter 6",
+  "match": [
+   "street fighter 6",
+   "sf6"
+  ],
+  "appid": 1364780,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Street Fighter 6"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "mk11",
+  "name_ar": "مورتال كومبات 11",
+  "steam_name": "Mortal Kombat 11",
+  "match": [
+   "mortal kombat 11",
+   "mk11"
+  ],
+  "appid": 976310,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Mortal Kombat 11"
+   }
+  ],
+  "cat": [
+   "action"
+  ]
+ },
+ {
+  "id": "deadisland2",
+  "name_ar": "ديد آيلاند 2",
+  "steam_name": "Dead Island 2",
+  "match": [
+   "dead island 2"
+  ],
+  "appid": 934700,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Dead Island 2"
+   }
+  ],
+  "cat": [
+   "horror"
+  ]
+ },
+ {
+  "id": "witcher3",
+  "name_ar": "ذا ويتشر 3",
+  "steam_name": "The Witcher 3: Wild Hunt",
+  "match": [
+   "witcher 3"
+  ],
+  "appid": 292030,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Witcher 3"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "fallout4",
+  "name_ar": "فول آوت 4",
+  "steam_name": "Fallout 4",
+  "match": [
+   "fallout 4"
+  ],
+  "appid": 377160,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Fallout 4"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "skyrim",
+  "name_ar": "سكايرم",
+  "steam_name": "The Elder Scrolls V: Skyrim Special Edition",
+  "match": [
+   "skyrim"
+  ],
+  "appid": 489830,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Skyrim"
+   }
+  ],
+  "cat": [
+   "rpg"
+  ]
+ },
+ {
+  "id": "cities2",
+  "name_ar": "سيتيز: سكايلاينز 2",
+  "steam_name": "Cities: Skylines II",
+  "match": [
+   "skylines ii",
+   "skylines 2"
+  ],
+  "appid": 949230,
+  "sources": [
+   {
+    "seo": "steam-global-account",
+    "q": "Cities Skylines 2"
+   }
+  ],
+  "cat": [
+   "sim"
+  ]
+ },
+ {
+  "id": "bf1",
+  "name_ar": "باتلفيلد 1",
+  "steam_name": "Battlefield 1",
+  "match": [
+   "battlefield 1"
+  ],
+  "cat": [
+   "action",
+   "online"
+  ],
+  "appid": 1238840
+ },
+ {
+  "id": "bf4",
+  "name_ar": "باتلفيلد 4",
+  "steam_name": "Battlefield 4",
+  "match": [
+   "battlefield 4"
+  ],
+  "cat": [
+   "action",
+   "online"
+  ],
+  "appid": 1238860
+ },
+ {
+  "id": "cs2prime",
+  "name_ar": "كاونتر سترايك 2 برايم",
+  "steam_name": "Counter-Strike 2",
+  "match": [
+   "prime"
+  ],
+  "cat": [
+   "online",
+   "action"
+  ],
+  "appid": 730,
+  "sources": [
+   {
+    "seo": "counter-strike-global-offensive-accounts",
+    "q": "prime"
+   },
+   {
+    "seo": "steam-global-account",
+    "q": "prime"
+   }
+  ],
+  "exclude": [
+   "faceit",
+   "rank",
+   "elo",
+   "premier",
+   "medal",
+   "coin",
+   "skins",
+   "inventory",
+   "hours played"
+  ]
+ }
+]

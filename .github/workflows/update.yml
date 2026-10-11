@@ -1,0 +1,54 @@
+name: تحديث الأسعار
+
+on:
+  schedule:
+    - cron: "7 * * * *"      # كل ساعة
+  workflow_dispatch: {}       # زر تشغيل يدوي
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: سحب الأسعار من G2G
+        run: python scraper.py
+
+      - name: حفظ الأسعار الجديدة
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add site/data.json steam_cache.json
+          git diff --cached --quiet || git commit -m "تحديث الأسعار $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push || true
+
+      - name: تجهيز الموقع
+        run: |
+          mkdir -p _site
+          { echo '<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'; cat site/index.html; echo '</html>'; } > _site/index.html
+          cp site/data.json _site/data.json
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

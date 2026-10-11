@@ -1,0 +1,16 @@
+{
+  "store_name": "Vip X Store",
+  "telegram": "vipxstr",
+  "usd_rate_iqd": 1585,
+  "g2g_fee_percent": 4.49,
+  "g2g_fee_fixed_usd": 0.1,
+  "profit_iqd": 5000,
+  "round_up_to_iqd": 500,
+  "min_seller_satisfaction": 0.97,
+  "min_seller_ratings": 5,
+  "max_pages_per_source": 4,
+  "page_size": 48,
+  "request_delay_seconds": 1.2,
+  "max_pages_full_scan": 300,
+  "max_new_steam_lookups": 400
+}
