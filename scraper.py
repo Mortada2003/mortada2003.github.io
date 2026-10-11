@@ -138,24 +138,34 @@ def edition_of(title):
     return "standard", "ستاندرد"
 
 
+from collections import Counter
+REJECT = Counter()
+
+
 def base_ok(o, cfg, steam=True, fresh=True, extra_ex=()):
+    r = _base_ok(o, cfg, steam, fresh, extra_ex)
+    REJECT[r] += 1
+    return r == "ok"
+
+
+def _base_ok(o, cfg, steam=True, fresh=True, extra_ex=()):
     t = norm(o.get("title"))
     ex = [e for e in GLOBAL_EXCLUDE + list(extra_ex) if steam or e not in ("xbox", "limited")]
     if any(e in t for e in ex):
-        return False
+        return "exclude"
     if steam and "steam" not in t and o.get("_seo") != "steam-global-account":
-        return False
+        return "nosteam"
     if fresh and not FRESH_RE.search(t):
-        return False
+        return "notfresh"
     if (o.get("available_qty") or 0) - (o.get("reserved_qty") or 0) < 1:
-        return False
+        return "qty"
     if (o.get("min_qty") or 1) > 1 or o.get("status", "live") != "live":
-        return False
+        return "minq/status"
     if (o.get("satisfaction_rate") or 0) < cfg["min_seller_satisfaction"]:
-        return False
+        return "sat"
     if (o.get("total_rating") or 0) < cfg["min_seller_ratings"]:
-        return False
-    return float(o.get("unit_price_in_usd") or 0) > 0
+        return "rating"
+    return "ok" if float(o.get("unit_price_in_usd") or 0) > 0 else "price0"
 
 
 def extract_name(title):
@@ -285,6 +295,10 @@ def main():
                 for o in fetch(s["seo"], s.get("q"), cfg, cfg["max_pages_per_source"]):
                     pool.setdefault(o["offer_id"], o)
     print(f"مجموع العروض: {len(pool)}")
+    if sample is None:
+        with open(os.path.join(ROOT, "debug_offers.json"), "w", encoding="utf-8") as f:
+            json.dump(list(pool.values())[:3] + [o for o in pool.values() if o.get("_seo") == "fc-27-accounts"][:3],
+                      f, ensure_ascii=False, indent=1)
 
     # 2) توزيع العروض على الألعاب
     groups = {}   # game key -> {"meta":..., "best": {edition: (usd, ar, offer)}}
@@ -368,6 +382,7 @@ def main():
     for x in items:
         x.pop("_o")
 
+    print("أسباب الرفض:", dict(REJECT))
     # حماية: إذا السحب طلع ناقص كلش (حظر/خطأ مؤقت) نبقي الأسعار القديمة
     old = load(os.path.join("site", "data.json"), {}) or {}
     old_priced = len({x["game_id"] for x in old.get("items", []) if x.get("price_iqd")})
