@@ -51,6 +51,7 @@ BUNDLE_RE = re.compile(r"\b\d+\s*(games|game)\b|\+\s*\d+\s*(other|more)", re.I)
 BLOCK_SELLERS = {"el9in", "AdamBrian", "Maper", "week1997", "yubabuneng", "Stark2Doom", "Maddigital",
                  "YellowLion", "GauGau", "WangFuGuei", "diminutive", "SyndicatoR_x"}
 TRUST = {}
+FOUND_NAMES = set()
 
 
 def build_trust(offers):
@@ -126,11 +127,11 @@ def key_of(name):
 
 
 # ---------------------------------------------------------------- G2G
-def fetch(seo, q, cfg, max_pages):
+def fetch(seo, q, cfg, max_pages, sort="lowest_price"):
     out = []
     for page in range(1, max_pages + 1):
         params = {"seo_term": seo, "page_size": cfg["page_size"], "page": page,
-                  "sort": "lowest_price", "currency": "USD", "country": "US"}
+                  "sort": sort, "currency": "USD", "country": "US"}
         if q:
             params["q"] = q
         try:
@@ -309,8 +310,13 @@ def main():
         for o in sample:
             pool.setdefault(o["offer_id"], o)
     else:
-        for o in fetch("steam-global-account", None, cfg, cfg.get("max_pages_full_scan", 300)):
-            pool.setdefault(o["offer_id"], o)
+        for srt in ("lowest_price", "highest_price"):
+            for o in fetch("steam-global-account", None, cfg, cfg.get("max_pages_full_scan", 300), srt):
+                pool.setdefault(o["offer_id"], o)
+        # كل لعبة نعرفها من قبل (مو بالقائمة العربية): نبحث عنها بالاسم حتى ما تفوتنا
+        for q in load("search_names.json", []):
+            for o in fetch("steam-global-account", q, cfg, 1):
+                pool.setdefault(o["offer_id"], o)
         seen = set()
         for g in games:
             for s in g.get("sources") or []:
@@ -322,10 +328,6 @@ def main():
                     pool.setdefault(o["offer_id"], o)
     print(f"مجموع العروض: {len(pool)}")
     build_trust(pool.values())
-    if sample is None:
-        with open(os.path.join(ROOT, "debug_offers.json"), "w", encoding="utf-8") as f:
-            json.dump(list(pool.values())[:3] + [o for o in pool.values() if o.get("_seo") == "fc-27-accounts"][:3],
-                      f, ensure_ascii=False, indent=1)
 
     # 2) توزيع العروض على الألعاب
     groups = {}   # game key -> {"meta":..., "best": {edition: (usd, ar, offer)}}
@@ -354,6 +356,7 @@ def main():
         if not info or info.get("free"):
             continue
         offer_to(f"s:{info['appid']}", {"steam": info}, o)
+        FOUND_NAMES.add(name)
 
     # 3) بناء ملف الموقع
     items, report = [], []
@@ -414,6 +417,11 @@ def main():
     old = load(os.path.join("site", "data.json"), {}) or {}
     old_priced = len({x["game_id"] for x in old.get("items", []) if x.get("price_iqd")})
     new_priced = len({x["game_id"] for x in items if x.get("price_iqd")})
+    save("steam_cache.json", cache)
+    if sample is None:
+        names = load("search_names.json", [])
+        known_keys = {key_of(n) for n in names}
+        save("search_names.json", names + sorted(n for n in FOUND_NAMES if key_of(n) not in known_keys))
     if sample is None and old_priced and new_priced < 0.7 * old_priced:
         print(f"السحب ناقص ({new_priced} مقابل {old_priced}) — نبقي الأسعار القديمة.")
         sys.exit(0)
