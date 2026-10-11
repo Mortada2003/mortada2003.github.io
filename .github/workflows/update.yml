@@ -30,9 +30,11 @@ jobs:
           python-version: "3.12"
 
       - name: سحب الأسعار من G2G
+        if: github.event_name != 'push'
         run: python -u scraper.py 2>&1 | tail -n 200 > scrape_log.txt; tail -n 40 scrape_log.txt
 
       - name: حفظ الأسعار الجديدة
+        if: github.event_name != 'push'
         run: |
           git config user.name "price-bot"
           git config user.email "price-bot@users.noreply.github.com"

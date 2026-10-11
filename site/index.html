@@ -187,6 +187,21 @@ details{background:color-mix(in srgb,var(--panel) 85%,transparent);border:1px so
 summary{cursor:pointer;font-weight:600}
 details p,details ul{color:var(--muted);margin:8px 0 2px}
 footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
+
+/* contact chooser */
+.cm{position:fixed;inset:0;z-index:100;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.6);backdrop-filter:blur(4px);padding:16px}
+.cm[hidden]{display:none}
+.cm-box{width:100%;max-width:420px;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:12px;box-shadow:0 30px 80px -20px #000;animation:cmUp .25s ease}
+@keyframes cmUp{from{transform:translateY(30px);opacity:0}to{transform:none;opacity:1}}
+@media (min-width:700px){.cm{align-items:center}}
+.cm-box h4{margin:0;font-size:18px;text-align:center}
+.cm-box p{margin:0;color:var(--muted);font-size:13.5px;text-align:center;line-height:1.6}
+.cm-btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px;border-radius:14px;font-weight:700;font-size:16px;text-decoration:none;color:#fff;border:0;cursor:pointer;font-family:inherit}
+.cm-btn svg{width:22px;height:22px;fill:currentColor}
+.cm-tg{background:#229ED9}
+.cm-ig{background:linear-gradient(45deg,#f9a825,#e1306c 45%,#833ab4)}
+.cm-x{background:transparent;color:var(--muted);border:1px solid var(--line);padding:10px}
+.cm-note{font-size:12.5px!important;color:var(--gold)!important}
 </style>
 
 <canvas id="bg" aria-hidden="true"></canvas>
@@ -265,7 +280,7 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color
       </div>
     </section>
 
-    <footer><span>© Vip X Store</span><span>للطلب: تيليجرام <a id="tgFoot" href="https://t.me/vipxstr" target="_blank" rel="noopener">@vipxstr</a></span></footer>
+    <footer><span>© Vip X Store</span><span>للطلب: إنستغرام <a href="https://ig.me/m/vipxstor" target="_blank" rel="noopener">@vipxstor</a> · تيليجرام <a id="tgFoot" href="https://t.me/vipxstr" target="_blank" rel="noopener">@vipxstr</a></span></footer>
   </div>
 </div>
 
@@ -545,5 +560,41 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color
 
   fetch('data.json',{cache:'no-store'}).then(r=>r.json()).then(load)
     .catch(()=>{if(window.SEED)load(window.SEED);else $('count').textContent='تعذر تحميل الأسعار، حدّث الصفحة';});
+})();
+</script>
+<div class="cm" id="cm" hidden role="dialog" aria-modal="true" aria-labelledby="cmT">
+  <div class="cm-box">
+    <h4 id="cmT">وين تحب تتواصل ويانا؟</h4>
+    <p id="cmMsg"></p>
+    <a class="cm-btn cm-tg" id="cmTg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.6 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1L18 6.5c.4-.4-.1-.6-.6-.2L5.9 13.5 1 12c-1.1-.3-1.1-1.1.2-1.6L20.5 3c.9-.3 1.7.2 1.4 1.3z"/></svg>تيليجرام</a>
+    <a class="cm-btn cm-ig" id="cmIg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 4.9a4.9 4.9 0 1 0 0 9.8 4.9 4.9 0 0 0 0-9.8zm0 8.1a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.1-9.4a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>إنستغرام</a>
+    <p class="cm-note" id="cmNote" hidden>نسخنا رسالة الطلب، الصقها بالمحادثة 👌</p>
+    <button class="cm-btn cm-x" id="cmX" type="button">إلغاء</button>
+  </div>
+</div>
+<script>
+(function(){
+  const IG='vipxstor';
+  const cm=document.getElementById('cm'),tg=document.getElementById('cmTg'),ig=document.getElementById('cmIg'),msgEl=document.getElementById('cmMsg'),note=document.getElementById('cmNote');
+  let text='';
+  function open(href){
+    let u;try{u=new URL(href)}catch(e){return false}
+    text=u.searchParams.get('text')||'';
+    tg.href=href;ig.href='https://ig.me/m/'+IG;
+    msgEl.textContent=text?text:'اختار التطبيق اللي يناسبك وراح نرد عليك بأسرع وقت.';
+    note.hidden=true;cm.hidden=false;document.body.style.overflow='hidden';
+    return true;
+  }
+  function close(){cm.hidden=true;document.body.style.overflow=''}
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a[href^="https://t.me/"]');
+    if(!a||a.id==='cmTg')return;
+    if(open(a.href))e.preventDefault();
+  },true);
+  ig.addEventListener('click',()=>{if(text){try{navigator.clipboard.writeText(text)}catch(e){}note.hidden=false}});
+  tg.addEventListener('click',()=>setTimeout(close,300));
+  document.getElementById('cmX').addEventListener('click',close);
+  cm.addEventListener('click',e=>{if(e.target===cm)close()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!cm.hidden)close()});
 })();
 </script>
