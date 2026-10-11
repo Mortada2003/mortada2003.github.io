@@ -6117,5 +6117,561 @@
    "Steam Cloud",
    "Family Sharing"
   ]
+ },
+ "automatic": {
+  "appid": 3427940,
+  "name": "Automatic Kingdom",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3427940/45f372cc1f5d383ee46adedb81bf920df7646a34/header.jpg?t=1770266401",
+  "free": false,
+  "genres": [
+   "Indie",
+   "Strategy"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Mouse Only Option",
+   "Playable without Timed Input",
+   "Save Anytime",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "southkorea": null,
+ "australia": null,
+ "southafrica": null,
+ "eldenring": {
+  "appid": 1245620,
+  "name": "ELDEN RING",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_alt_assets_3.jpg?t=1790290043",
+  "free": false,
+  "genres": [
+   "Action",
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Playable without Timed Input",
+   "Save Anytime",
+   "Stereo Sound",
+   "Surround Sound",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "battlefield6": {
+  "appid": 2807960,
+  "name": "Battlefield™ 6",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/c12d12ce3c7d217398d3fcad77427bfc9d57c570/header.jpg?t=1790375732",
+  "free": false,
+  "genres": [
+   "Action"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "In-App Purchases",
+   "Camera Comfort",
+   "Chat Speech-to-text",
+   "Chat Text-to-speech",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Keyboard Only Option",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "HDR available"
+  ]
+ },
+ "arksurvivalascended": {
+  "appid": 2399830,
+  "name": "ARK: Survival Ascended",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Massively Multiplayer",
+   "RPG",
+   "Early Access"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "MMO",
+   "PvP",
+   "Online PvP",
+   "LAN PvP",
+   "Co-op",
+   "Online Co-op",
+   "LAN Co-op",
+   "Shared/Split Screen Co-op",
+   "Shared/Split Screen",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Includes level editor",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
+ },
+ "palworld": {
+  "appid": 1623730,
+  "name": "Palworld",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/6912f19c43a95ff5fe514eedd35e68bf12335459/header.jpg?t=1790336367",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "RPG"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Steam Workshop",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "sonsoftheforest": {
+  "appid": 1326470,
+  "name": "Sons Of The Forest",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie",
+   "Simulation"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "dayz": {
+  "appid": 221100,
+  "name": "DayZ",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1789982846",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Massively Multiplayer"
+  ],
+  "cats": [
+   "Multi-player",
+   "MMO",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Valve Anti-Cheat enabled"
+  ]
+ },
+ "deadbydaylight": {
+  "appid": 381210,
+  "name": "Dead by Daylight",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+  "free": false,
+  "genres": [
+   "Action"
+  ],
+  "cats": [
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Steam Input API Support",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "Remote Play on Phone",
+   "Remote Play on Tablet",
+   "Remote Play on TV",
+   "Family Sharing"
+  ]
+ },
+ "projectzomboid": {
+  "appid": 108600,
+  "name": "Project Zomboid",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
+  "free": false,
+  "genres": [
+   "Indie",
+   "RPG",
+   "Simulation",
+   "Early Access"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Shared/Split Screen Co-op",
+   "Shared/Split Screen",
+   "Cross-Platform Multiplayer",
+   "Steam Trading Cards",
+   "Steam Workshop",
+   "Partial Controller Support",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
+ },
+ "beamngdrive": {
+  "appid": 284160,
+  "name": "BeamNG.drive",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1785357623",
+  "free": false,
+  "genres": [
+   "Racing",
+   "Simulation",
+   "Early Access"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "Camera Comfort",
+   "Custom Volume Controls",
+   "Keyboard Only Option",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Stereo Sound",
+   "Surround Sound",
+   "Partial Controller Support",
+   "Steam Cloud",
+   "Includes level editor",
+   "Remote Play on Phone",
+   "Remote Play on Tablet",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
+ },
+ "forzahorizon5": {
+  "appid": 1551360,
+  "name": "Forza Horizon 5",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Racing",
+   "Simulation",
+   "Sports"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Steam Cloud",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "readyornot": {
+  "appid": 1144200,
+  "name": "Ready or Not",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Indie"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Steam Cloud"
+  ]
+ },
+ "tekken8": {
+  "appid": 1778820,
+  "name": "TEKKEN 8",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/c7b0b80639fc8c7d386922f414f293ca849e8e81/header.jpg?t=1787180720",
+  "free": false,
+  "genres": [
+   "Action"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Shared/Split Screen PvP",
+   "Shared/Split Screen",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Partial Controller Support",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "mortalkombat1": {
+  "appid": 1971870,
+  "name": "Mortal Kombat 1",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130",
+  "free": false,
+  "genres": [
+   "Action"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Shared/Split Screen PvP",
+   "Shared/Split Screen",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "In-App Purchases",
+   "Chat Speech-to-text",
+   "Chat Text-to-speech",
+   "Custom Volume Controls",
+   "Keyboard Only Option",
+   "Narrated Game Menus",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "Remote Play on TV",
+   "Remote Play Together",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "thelastofusparti": {
+  "appid": 1888930,
+  "name": "The Last of Us™ Part I",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "cats": [
+   "Single-player",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Gamepad Recommended",
+   "Narrated Game Menus",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "Remote Play on TV",
+   "Family Sharing"
+  ]
+ },
+ "ghostoftsushimadirectorscut": {
+  "appid": 2215430,
+  "name": "Ghost of Tsushima DIRECTOR'S CUT",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
+  "free": false,
+  "genres": [
+   "Action",
+   "Adventure"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Adjustable Difficulty",
+   "Playable without Timed Input",
+   "DualShock Controller Support",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "DualSense Controller Support",
+   "Save Anytime",
+   "Steam Input API Support",
+   "Stereo Sound",
+   "Subtitle Options",
+   "Surround Sound",
+   "Steam Cloud",
+   "HDR available",
+   "Family Sharing"
+  ]
+ },
+ "farmingsimulator25": {
+  "appid": 2300320,
+  "name": "Farming Simulator 25",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header.jpg?t=1788874602",
+  "free": false,
+  "genres": [
+   "Simulation"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "DualShock Controller Support",
+   "DualSense Controller Support",
+   "Steam Cloud",
+   "Family Sharing"
+  ]
+ },
+ "assettocorsa": {
+  "appid": 244210,
+  "name": "Assetto Corsa",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1782208838",
+  "free": false,
+  "genres": [
+   "Indie",
+   "Racing",
+   "Simulation",
+   "Sports"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Steam Achievements",
+   "VR Supported",
+   "Partial Controller Support",
+   "Steam Leaderboards",
+   "Includes level editor",
+   "Family Sharing"
+  ]
+ },
+ "stardewvalley": {
+  "appid": 413150,
+  "name": "Stardew Valley",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+  "free": false,
+  "genres": [
+   "Indie",
+   "RPG",
+   "Simulation"
+  ],
+  "cats": [
+   "Single-player",
+   "Multi-player",
+   "Co-op",
+   "Online Co-op",
+   "LAN Co-op",
+   "Shared/Split Screen Co-op",
+   "Shared/Split Screen",
+   "Steam Achievements",
+   "Full controller support",
+   "Steam Trading Cards",
+   "Steam Cloud",
+   "Remote Play on Phone",
+   "Remote Play on Tablet",
+   "Remote Play Together",
+   "Family Sharing"
+  ]
  }
 }
