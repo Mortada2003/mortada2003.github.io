@@ -104,4 +104,5 @@
   counter-strike-global-offensive-accounts q='prime': 192 عرض
   steam-global-account q='prime': 192 عرض
 مجموع العروض: 5214
+أسباب الرفض: {'minq/status': 157, 'exclude': 1843, 'notfresh': 1456, 'rating': 262, 'ok': 121, 'sat': 637, 'nosteam': 319, 'qty': 3}
 السحب ناقص (15 مقابل 326) — نبقي الأسعار القديمة.
