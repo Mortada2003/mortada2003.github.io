@@ -21,7 +21,10 @@
   "cat": [
    "sports",
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mw3",
@@ -46,7 +49,10 @@
    "cod",
    "online"
   ],
-  "appid": 3595270
+  "appid": 3595270,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mw4",
@@ -71,7 +77,10 @@
    "cod",
    "online"
   ],
-  "appid": 4435490
+  "appid": 4435490,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bo7",
@@ -95,7 +104,10 @@
    "cod",
    "online"
   ],
-  "appid": 3606480
+  "appid": 3606480,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mw2",
@@ -119,7 +131,10 @@
     "seo": "steam-global-account",
     "q": "modern warfare 2"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "vanguard",
@@ -141,7 +156,10 @@
     "q": "vanguard"
    }
   ],
-  "appid": 1985820
+  "appid": 1985820,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "codww2",
@@ -164,7 +182,10 @@
     "seo": "steam-global-account",
     "q": "wwii"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "codiw",
@@ -186,7 +207,10 @@
     "seo": "steam-global-account",
     "q": "infinite warfare"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bo2",
@@ -210,7 +234,10 @@
     "seo": "steam-global-account",
     "q": "black ops 2"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bo1",
@@ -233,7 +260,10 @@
     "seo": "steam-global-account",
     "q": "black ops 1"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mwr",
@@ -256,7 +286,10 @@
     "seo": "steam-global-account",
     "q": "modern warfare remastered"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "ghosts",
@@ -280,7 +313,10 @@
     "seo": "steam-global-account",
     "q": "call of duty: ghosts"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "aw",
@@ -302,7 +338,10 @@
     "seo": "steam-global-account",
     "q": "advanced warfare"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "cod4",
@@ -325,7 +364,10 @@
     "seo": "steam-global-account",
     "q": "call of duty 4"
    }
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "minecraft",
@@ -344,7 +386,11 @@
    "ban",
    "hypixel",
    "cape only",
-   "unmigrated"
+   "unmigrated",
+   "cape",
+   "code",
+   "tlauncher",
+   "game pass"
   ],
   "sources": [
    {
@@ -374,7 +420,9 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "gta5",
@@ -391,12 +439,16 @@
    "fivem only",
    "social club only",
    "money",
-   "modded"
+   "modded",
+   "online / rp",
+   "rp ",
+   "social club"
   ],
   "cat": [
    "action"
   ],
-  "fresh": false
+  "fresh": true,
+  "steam": true
  },
  {
   "id": "rdr2",
@@ -410,7 +462,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "cyberpunk",
@@ -422,7 +477,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "eldenring",
@@ -434,7 +492,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bf6",
@@ -447,7 +508,12 @@
   "cat": [
    "online"
   ],
-  "appid": 2807960
+  "appid": 2807960,
+  "exclude": [
+   "redsec"
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "arcraiders",
@@ -468,7 +534,10 @@
   "cat": [
    "online"
   ],
-  "appid": 1808500
+  "appid": 1808500,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "rust",
@@ -492,7 +561,9 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "r6",
@@ -514,7 +585,12 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [
+   "siege x"
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "arksa",
@@ -528,7 +604,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "palworld",
@@ -540,7 +619,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bg3",
@@ -552,7 +634,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "wukong",
@@ -564,7 +649,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hogwarts",
@@ -576,7 +664,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "sotf",
@@ -588,7 +679,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "theforest",
@@ -603,7 +697,9 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "dayz",
@@ -615,7 +711,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "dbd",
@@ -628,7 +727,10 @@
   "cat": [
    "horror",
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "phasmo",
@@ -641,7 +743,10 @@
   "cat": [
    "horror",
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "zomboid",
@@ -653,7 +758,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "beamng",
@@ -666,7 +774,10 @@
   "cat": [
    "racing",
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "fh5",
@@ -679,7 +790,10 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "ets2",
@@ -691,7 +805,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "schedule1",
@@ -704,7 +821,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "readyornot",
@@ -716,7 +836,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hll",
@@ -728,7 +851,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "tekken8",
@@ -740,7 +866,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mk1",
@@ -752,7 +881,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "gow",
@@ -768,7 +900,9 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "spiderman",
@@ -781,7 +915,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "tlou",
@@ -798,7 +935,9 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "tsushima",
@@ -810,7 +949,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "ittakestwo",
@@ -822,7 +964,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "fs25",
@@ -835,7 +980,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "assetto",
@@ -851,7 +999,9 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "terraria",
@@ -863,7 +1013,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "stardew",
@@ -875,7 +1028,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "silksong",
@@ -893,7 +1049,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hollowknight",
@@ -914,7 +1073,9 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "helldivers2",
@@ -922,7 +1083,7 @@
   "steam_name": "HELLDIVERS 2",
   "match": [
    "helldivers 2",
-   "helldivers"
+   "helldivers ii"
   ],
   "appid": 553850,
   "sources": [
@@ -933,7 +1094,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mhwilds",
@@ -951,7 +1115,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mhworld",
@@ -973,7 +1140,9 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "re4",
@@ -992,7 +1161,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "re8",
@@ -1010,7 +1182,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "re2",
@@ -1029,7 +1204,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "re9",
@@ -1047,7 +1225,10 @@
   "cat": [
    "horror"
   ],
-  "appid": 3764200
+  "appid": 3764200,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "dl2",
@@ -1065,7 +1246,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "dlbeast",
@@ -1084,7 +1268,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "daysgone",
@@ -1102,7 +1289,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hzd",
@@ -1120,7 +1310,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hfw",
@@ -1138,7 +1331,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "milesmorales",
@@ -1156,7 +1352,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "spiderman2",
@@ -1175,7 +1374,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "gowr",
@@ -1194,7 +1396,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "uncharted",
@@ -1212,7 +1417,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "sekiro",
@@ -1230,7 +1438,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "ds3",
@@ -1249,7 +1460,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "nightreign",
@@ -1267,7 +1481,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "liesofp",
@@ -1285,7 +1502,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "stellarblade",
@@ -1303,7 +1523,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "acshadows",
@@ -1321,7 +1544,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "acvalhalla",
@@ -1339,7 +1565,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "acmirage",
@@ -1357,7 +1586,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "fc6",
@@ -1375,7 +1607,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mafiade",
@@ -1394,7 +1629,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mafiaoc",
@@ -1412,7 +1650,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "hitman",
@@ -1430,7 +1671,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bf2042",
@@ -1449,7 +1693,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bfv",
@@ -1468,7 +1715,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bo6",
@@ -1488,7 +1738,10 @@
    "cod",
    "online"
   ],
-  "appid": 4384550
+  "appid": 4384550,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bo3",
@@ -1509,7 +1762,10 @@
   "cat": [
    "cod",
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mw2019",
@@ -1528,7 +1784,10 @@
   ],
   "cat": [
    "cod"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "wwe2k25",
@@ -1546,7 +1805,10 @@
   ],
   "cat": [
    "sports"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "nba2k26",
@@ -1564,7 +1826,10 @@
   "cat": [
    "sports"
   ],
-  "appid": 3472040
+  "appid": 3472040,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "f125",
@@ -1584,7 +1849,10 @@
   "cat": [
    "sports",
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "nfsu",
@@ -1603,7 +1871,10 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "nfsheat",
@@ -1622,7 +1893,10 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "crewmotorfest",
@@ -1640,7 +1914,10 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "fh4",
@@ -1659,7 +1936,10 @@
   ],
   "cat": [
    "racing"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "ats",
@@ -1677,7 +1957,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "cms21",
@@ -1695,7 +1978,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "lethal",
@@ -1714,7 +2000,10 @@
   "cat": [
    "horror",
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "repo",
@@ -1737,7 +2026,9 @@
   "cat": [
    "horror",
    "online"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "peak",
@@ -1758,7 +2049,9 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "raft",
@@ -1782,7 +2075,9 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "valheim",
@@ -1800,7 +2095,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "subnautica",
@@ -1819,7 +2117,9 @@
     "q": "Subnautica"
    }
   ],
-  "cat": []
+  "cat": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "greenhell",
@@ -1837,7 +2137,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "scum",
@@ -1855,7 +2158,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "seaofthieves",
@@ -1873,7 +2179,10 @@
   ],
   "cat": [
    "online"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "kcd2",
@@ -1892,7 +2201,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "gta4",
@@ -1912,7 +2224,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "rdr1",
@@ -1935,7 +2250,9 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "detroit",
@@ -1953,7 +2270,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "deathstranding",
@@ -1971,7 +2291,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "sh2",
@@ -1989,7 +2312,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "sf6",
@@ -2008,7 +2334,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "mk11",
@@ -2027,7 +2356,10 @@
   ],
   "cat": [
    "action"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "deadisland2",
@@ -2045,7 +2377,10 @@
   ],
   "cat": [
    "horror"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "witcher3",
@@ -2063,7 +2398,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "fallout4",
@@ -2081,7 +2419,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "skyrim",
@@ -2099,7 +2440,10 @@
   ],
   "cat": [
    "rpg"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "cities2",
@@ -2118,7 +2462,10 @@
   ],
   "cat": [
    "sim"
-  ]
+  ],
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bf1",
@@ -2131,7 +2478,10 @@
    "action",
    "online"
   ],
-  "appid": 1238840
+  "appid": 1238840,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "bf4",
@@ -2144,7 +2494,10 @@
    "action",
    "online"
   ],
-  "appid": 1238860
+  "appid": 1238860,
+  "exclude": [],
+  "steam": true,
+  "fresh": true
  },
  {
   "id": "cs2prime",
@@ -2178,6 +2531,8 @@
    "skins",
    "inventory",
    "hours played"
-  ]
+  ],
+  "steam": true,
+  "fresh": true
  }
 ]

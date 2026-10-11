@@ -41,8 +41,28 @@ GLOBAL_EXCLUDE = [
     "played 5h", "dm me", "region lock", "turkey", "argentina", "random game", "mystery",
     "beta", "playtest", "unlock all", "mod menu", "hack", "cheat",
     "unbought", "subscription", "pre-order", "preorder", "pre order", "pre-purchase", "already in library",
-    "visit in advance", "anniversary", " dlc", " lvl", "yrs", "years old", "redsec", "tlauncher", "cape",
+    "visit in advance", "anniversary", " dlc", "lvl", " yrs", "years old", "redsec",
+    "random country", "random region", "no games", "un-bought", "not bought", "not purchased", "unused",
+    "to-play", "to play", "not owned", "ready to buy", "veteran", "phone verified", "non prime", "non-prime",
+    "market disabled", "episode", "tlauncher", "game pass", "games:", "sms", "number verif", "outlook",
+    "add friends", "activision", "& clean",
 ]
+BUNDLE_RE = re.compile(r"\b\d+\s*(games|game)\b|\+\s*\d+\s*(other|more)", re.I)
+BLOCK_SELLERS = {"el9in", "AdamBrian", "Maper", "week1997", "yubabuneng", "Stark2Doom", "Maddigital",
+                 "YellowLion", "GauGau", "WangFuGuei", "diminutive", "SyndicatoR_x"}
+TRUST = {}
+
+
+def build_trust(offers):
+    """ثقة البائع من مجموع تقييماته بكل عروضه (بعض العروض تجي بلا تقييم)."""
+    agg = {}
+    for o in offers:
+        a = agg.setdefault(o.get("username"), [0, 0.0])
+        r = o.get("total_rating") or 0
+        a[0] += r
+        a[1] += r * (o.get("satisfaction_rate") or 0)
+    TRUST.clear()
+    TRUST.update({u: a[0] >= 5 and a[1] / a[0] >= 0.97 for u, a in agg.items() if a[0]})
 COVER_FIX = {}
 try:
     COVER_FIX = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "covers_fix.json")))
@@ -150,21 +170,27 @@ def base_ok(o, cfg, steam=True, fresh=True, extra_ex=()):
 
 def _base_ok(o, cfg, steam=True, fresh=True, extra_ex=()):
     t = norm(o.get("title"))
-    ex = [e for e in GLOBAL_EXCLUDE + list(extra_ex) if steam or e not in ("xbox", "limited")]
-    if any(e in t for e in ex):
-        return "exclude"
+    if o.get("username") in BLOCK_SELLERS:
+        return "blocked"
+    if not steam and not fresh:  # ماينكرافت: بس فلاترها الخاصة
+        if any(e in t for e in list(extra_ex) + ["tlauncher", "game pass"]):
+            return "exclude"
+    else:
+        ex = GLOBAL_EXCLUDE + list(extra_ex)
+        if any(e in t for e in ex) or BUNDLE_RE.search(t):
+            return "exclude"
     if steam and "steam" not in t and o.get("_seo") != "steam-global-account":
         return "nosteam"
     if fresh and not FRESH_RE.search(t):
         return "notfresh"
-    if (o.get("available_qty") or 0) - (o.get("reserved_qty") or 0) < 1:
+    if (o.get("available_qty") or 0) < 1:
         return "qty"
     if (o.get("min_qty") or 1) > 1 or o.get("status", "live") != "live":
         return "minq/status"
-    if (o.get("satisfaction_rate") or 0) < cfg["min_seller_satisfaction"]:
-        return "sat"
-    if (o.get("total_rating") or 0) < cfg["min_seller_ratings"]:
-        return "rating"
+    sat, rat = (o.get("satisfaction_rate") or 0), (o.get("total_rating") or 0)
+    good = rat >= cfg["min_seller_ratings"] and sat >= cfg["min_seller_satisfaction"]
+    if not (good or (TRUST.get(o.get("username")) and (rat == 0 or sat >= cfg["min_seller_satisfaction"]))):
+        return "trust"
     return "ok" if float(o.get("unit_price_in_usd") or 0) > 0 else "price0"
 
 
@@ -295,6 +321,7 @@ def main():
                 for o in fetch(s["seo"], s.get("q"), cfg, cfg["max_pages_per_source"]):
                     pool.setdefault(o["offer_id"], o)
     print(f"مجموع العروض: {len(pool)}")
+    build_trust(pool.values())
     if sample is None:
         with open(os.path.join(ROOT, "debug_offers.json"), "w", encoding="utf-8") as f:
             json.dump(list(pool.values())[:3] + [o for o in pool.values() if o.get("_seo") == "fc-27-accounts"][:3],
