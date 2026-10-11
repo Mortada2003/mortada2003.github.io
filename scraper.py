@@ -319,7 +319,8 @@ def main():
                 pool.setdefault(o["offer_id"], o)
         seen = set()
         for g in games:
-            for s in g.get("sources") or []:
+            srcs = g.get("sources") or [{"seo": "steam-global-account", "q": max(g["match"], key=len)}]
+            for s in srcs:
                 k = (s["seo"], s.get("q"))
                 if k in seen or (s["seo"] == "steam-global-account" and not s.get("q")):
                     continue

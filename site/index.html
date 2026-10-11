@@ -515,6 +515,10 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color
     data=d;const map=new Map();
     for(const it of d.items){if(!map.has(it.game_id))map.set(it.game_id,{id:it.game_id,name_ar:it.name_ar||'',name_en:it.name_en||it.game_id,cover:it.cover,appid:it.appid,cat:it.cat||[],eds:[]});map.get(it.game_id).eds.push(it)}
     games=[...map.values()];
+    /* الألعاب المهمة أولاً */
+    const TOP=['mw4','gta5','squad','minecraft','fc27','bo7','bo6','mw3','bo3','mw2','rdr2','cs2prime','arcraiders','bf6','r6','rust','eldenring','wukong','cyberpunk','nba2k26','fh5','tekken8','mk1','hogwarts','palworld','dayz','gow','spiderman2','re4','bg3'];
+    const tr=id=>{const i=TOP.indexOf(id);return i<0?999:i};
+    games=games.map((g,i)=>[g,i]).sort((a,b)=>tr(a[0].id)-tr(b[0].id)||a[1]-b[1]).map(x=>x[0]);
     games.forEach((g,i)=>{const ps=g.eds.map(e=>e.price_iqd).filter(p=>p);g.has=ps.length>0;g.eds=g.has?g.eds.filter(e=>e.price_iqd):g.eds;g.min=g.has?Math.min(...ps):Infinity;g.rank=i;g.idx=' '+nAr(g.name_ar+' '+g.name_en+' '+g.id)+' ';g.sk=sk(g.name_ar+' '+g.name_en)});
     const tg=d.telegram||'vipxstr';['tgTop','tgHero','tgFoot'].forEach(id=>{$(id).href='https://t.me/'+tg});$('tgFoot').textContent='@'+tg;
     const t=new Date(d.updated);
