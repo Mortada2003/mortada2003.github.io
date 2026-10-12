@@ -577,9 +577,13 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color
   const IG='vipxst0re';
   const cm=document.getElementById('cm'),tg=document.getElementById('cmTg'),ig=document.getElementById('cmIg'),msgEl=document.getElementById('cmMsg'),note=document.getElementById('cmNote');
   let text='';
+  function track(name,title){try{window.goatcounter&&window.goatcounter.count({path:name,title:title||name,event:true})}catch(e){}}
+  let game='';
   function open(href){
     let u;try{u=new URL(href)}catch(e){return false}
     text=u.searchParams.get('text')||'';
+    const m=text.match(/(?:أطلب|للعبة):\s*([^\-(]+)/);game=m?m[1].trim():'';
+    track('ضغط طلب',game||'تواصل عام');
     tg.href=href;ig.href='https://ig.me/m/'+IG;
     msgEl.textContent=text?text:'اختار التطبيق اللي يناسبك وراح نرد عليك بأسرع وقت.';
     note.hidden=true;cm.hidden=false;document.body.style.overflow='hidden';
@@ -591,10 +595,11 @@ footer{border-top:1px solid var(--line);margin-top:48px;padding-block:22px;color
     if(!a||a.id==='cmTg')return;
     if(open(a.href))e.preventDefault();
   },true);
-  ig.addEventListener('click',()=>{if(text){try{navigator.clipboard.writeText(text)}catch(e){}note.hidden=false}});
-  tg.addEventListener('click',()=>setTimeout(close,300));
+  ig.addEventListener('click',()=>{track('طلب إنستغرام',game||'تواصل عام');if(text){try{navigator.clipboard.writeText(text)}catch(e){}note.hidden=false}});
+  tg.addEventListener('click',()=>{track('طلب تيليجرام',game||'تواصل عام');setTimeout(close,300)});
   document.getElementById('cmX').addEventListener('click',close);
   cm.addEventListener('click',e=>{if(e.target===cm)close()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!cm.hidden)close()});
 })();
 </script>
+<script data-goatcounter="https://vipxstore.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
